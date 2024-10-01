@@ -48,7 +48,7 @@ body {
   align-items: center;
   flex-direction: row;
   color: white;
-  font-weight: 200;
+  font-weight: light;
 }
 
 .contact_info img {
