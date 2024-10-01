@@ -25,8 +25,15 @@ body {
 
 .topmenu:hover {
   color: white;
+  color: white; /* Change text color to white on hover */
+  font-weight: bolder; /* Make font weight bolder on hover */
+  text-decoration: underline; /* Underline text on hover */
   /* Add the styles here */
 }
+
+ 
+
+
 
 .topdiv {
   float: right;
