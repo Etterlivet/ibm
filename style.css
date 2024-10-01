@@ -31,14 +31,27 @@ body {
   /* Add the styles here */
 }
 
- 
-
-
-
 .topdiv {
   float: right;
   padding-right: 1cm;
 }
+
+
+/* Profile Container */
+.profile-container {
+    display: flex;                  /* Align items horizontally */
+    align-items: center;           /* Center items vertically */
+    margin: 20px 0;               /* Add some margin for spacing */
+}
+
+ 
+
+/* Profile Text */
+.profile-text {
+    max-width: 600px;              /* Limit the width of the text container */
+}
+
+
 
 .profile_image {
     max-width: 150px; /* Set maximum width */
@@ -47,6 +60,8 @@ body {
     height: auto; /* Maintain aspect ratio */
     border-radius: 50%; /* Optional: Makes it a circle */
     object-fit: cover; /* Ensures image covers the element without distortion */
+   object-fit: cover;             /* Ensure image covers the element without distortion */
+    margin-right: 20px;            /* Add space between image and text */
 }
 
 .profile_name .contact_info {
@@ -72,7 +87,7 @@ body {
 
 h2 {
   text-align: justify;
-  font-size: 50px;
+  font-size: 30px;
   text-align: center;
   float: left;
   color: #7600bc;
@@ -91,6 +106,7 @@ h2 {
   margin-bottom: 20px;
   animation-duration: 5s;
   position: relative;
+  
 }
 
 /* Used in the About Me sections */
