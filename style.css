@@ -210,11 +210,7 @@ h2 {
   flex-flow: wrap;
   padding: 20px;
 
-  max-height: 300px; /* Set a maximum height for the recommendations section */
-    overflow-y: auto; /* Enable vertical scrolling if content overflows */
-    padding: 10px; /* Add padding for better spacing */
-    border: 1px solid #ccc; /* Optional: Add a border to distinguish the section */
-    border-radius: 5px; /* Optional: Rounded corners */
+
 }
 
 .recommendation {
@@ -231,8 +227,7 @@ h2 {
   font-size: 14px;
   height:150px
 
-  margin-bottom: 15px; /* Space between recommendations */
-    padding: 10px; /* Space inside each recommendation */
+
     
 }
 
